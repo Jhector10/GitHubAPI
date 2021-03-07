@@ -1,8 +1,6 @@
 import requests
 import json
 
-userID = input("Enter GitHub ID: ")
-
 def getRepos(userID):
     count = 0
     repos = []
@@ -17,7 +15,7 @@ def getRepos(userID):
         commits = len(requestCommits.json())
         repos.append({"Repo": repo["name"], "Commits": commits})
         print("Repo: " + repo["name"] + " Number of commits: " + str(commits))
-        if count == 10:
+        if count == 5:
             break  
 
     git_info = {
@@ -28,4 +26,5 @@ def getRepos(userID):
     
     return git_info
 
+userID = "Jhector10"
 getRepos(userID)
