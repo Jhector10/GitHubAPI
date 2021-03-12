@@ -1,6 +1,6 @@
 # GitHubAPI
 
-[![build status of master](https://travis-ci.org/Jhector10/GitHubAPI.svg?branch=master)](https://travis-ci.org/Jhector10/GitHubAPI)
+[![build status of master](https://travis-ci.org/Jhector10/GitHubAPI.svg?branch=main)](https://travis-ci.org/Jhector10/GitHubAPI)
 
 Testing on git api calls. Testing fails if it reachs a total of 10 repo calls.
 
