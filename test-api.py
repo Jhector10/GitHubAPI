@@ -19,7 +19,7 @@ class TestApi(unittest.TestCase):
 
     git_info = {
         "id": "Jhector10",
-        "repoCount": 5,
+        "repoCount": 2,
         "repos": [
             {
                 'Repo': 'ClassifyTriangles',
